@@ -16,9 +16,9 @@
 после установки библиотеки игра Тетрис готова к запуску
 
 для сборки образа в Docker используется команда:
-	docker build -t tetris-game .
+docker build -t tetris-game .
 для запуска используетс команда:
-	docker run -it --rm tetris
+docker run -it --rm tetris
 
 Управление в игре:
 	стрелка влево - перемещение фигуры на 1 блок влево
