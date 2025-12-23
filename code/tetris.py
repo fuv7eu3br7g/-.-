@@ -415,7 +415,7 @@ def gamecup(cup):
 def drawTitle():
     titleSurf = big_font.render('Тетрис', True, title_color)
     titleRect = titleSurf.get_rect()
-    titleRect.topleft = (window_w - 380, 30)
+    titleRect.topleft = (window_w - 345, 30)
     display_surf.blit(titleSurf, titleRect)
 
 
